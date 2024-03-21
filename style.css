@@ -1,0 +1,36 @@
+#pokemons > div {
+    width: 175px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 80px 0px;
+    box-sizing: border-box;
+}
+
+#pokemons > div > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+#pokemons > div > p {
+    margin: 10px;
+}
+
+#pokemons > div > .name {
+    font-weight: bold;
+}
+
+#pokemons > div > .pid {
+    font-weight: bold;
+}
+
+#pokemons {
+    display: flex;
+    flex-wrap: wrap;
+}
